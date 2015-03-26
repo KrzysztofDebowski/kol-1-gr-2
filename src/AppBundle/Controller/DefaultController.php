@@ -112,6 +112,13 @@ class DefaultController extends Controller
     {
         return $this->render('default/little.html.twig');
     }
+    /**
+     * @Route("/land.html", name="land")
+     */
+    public function landAction()
+    {
+        return $this->render('default/land.html.twig');
+    }
     /* M */
 
     /* N */
