@@ -54,6 +54,13 @@ class DefaultController extends Controller
     }
 
     /* E */
+    /**
+     * @Route("/empty.html", name="empty")
+     */
+    public function emptyAction()
+    {
+        return $this->render('default/empty.html.twig');
+    }
 
     /* F */
     /**
