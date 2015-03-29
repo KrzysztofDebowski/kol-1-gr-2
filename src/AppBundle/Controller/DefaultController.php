@@ -136,6 +136,14 @@ class DefaultController extends Controller
     /* P */
 
     /* Q */
+    
+    /**
+     * @Route("/Quick.html", name="quick")
+     */
+    public function quickAction()
+    {
+        return $this->render('default/Quick.html.twig');
+    }
 
     /* R */
 
